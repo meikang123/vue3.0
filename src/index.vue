@@ -1,5 +1,6 @@
 <template>
   <section class="section">
+    <h2>不会刷新页面</h2>
     <button @click="change">点击增加状态值</button>
     <p>改变这个元素值保存---状态不会丢失：4567</p>
     <p>状态值：{{ count }}</p>
